@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.custom-file-upload-hidden{
+    display: block;
+    visibility: visible;
+    position: static !important;
+    width: 100%;
+}
+.file-upload-input, LABEL.file-upload-button{ display: none;}

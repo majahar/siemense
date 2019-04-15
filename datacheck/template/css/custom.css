@@ -1,0 +1,65 @@
+.panel-heading select{
+	width:15%;
+	float:left;
+	margin-right:1%
+}
+
+#search_grid_box{
+	display:none;
+	float:left;
+	margin-right:1%
+}
+
+.panel-default>.panel-heading {
+	height: 50px !important;
+}
+
+
+#grid_search_button{
+	display:none;
+	float:left;
+	margin-right:1%
+}
+.sort_by_list{
+	display:none;
+}
+
+#dataTables-example_paginate .pagination{
+	float: left;
+	height: 10px;
+	margin-top: -2px;
+}
+
+.per_page_pagi{
+	margin-left:1%;
+	float: left;
+	width: 7%;
+}
+
+
+.per_page_pagi select.input-sm {
+height: 32px !important;
+}
+
+.validation_message_error{
+	color:red;
+}
+
+.add_button{
+	height:33px;
+}
+
+.clrWhite{
+	color:#fff;
+}
+
+.showMaterial{
+	display:none;
+}
+.hideDiv{
+	display:none;
+}
+.dataSearchMessage{
+	color:#428bca;
+	margin-bottom:3%;
+}

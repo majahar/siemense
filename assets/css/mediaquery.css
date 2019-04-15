@@ -1,0 +1,465 @@
+@media(max-width:1024px) and (min-width:991px) {
+	header .banner .contentblock .main_content, header .banner .content_box p {
+		width: 460px;
+	}
+	header .banner .contentblock .main_content h2 {
+		padding-left: 0px;
+	}
+	.registration .form_section_btn .refresh {
+		margin: 28px 10px 0 0;
+	}
+}
+@media(max-width:990px) and (min-width:768px) {
+	.siemens_background a {
+		font-size: 13px;
+	}
+	.banner-content {
+		position: relative;
+		top: 0;
+	}
+	header .mobile-banner {
+		height: 35vh;
+	}
+	header .banner {
+		height: auto;
+		background: none;
+	}
+	header .mobile-banner {
+		background: url(../img/banner.jpg) no-repeat 0 0;
+		height: 350px;
+		background-position: center center;
+		background-size: cover;
+	}
+	header .banner .col-sm-12 {
+		padding: 0;
+		background: url(../img/top_bg.jpg) no-repeat 0 0;
+		background-size: cover;
+	}
+	header .banner .contentblock .main_content .lftvideo {
+		padding-right: 15px;
+	}
+	header .banner .contentblock .main_content, header .banner .content_box {
+		width: 100%;
+		background: none;
+	}
+	header .banner .contentblock .main_content h2 {
+		padding-left: 0px;
+		font-size: 35px;
+	}
+	.container, .container-fluid, .registration .contentbox, .registration .form_section input[type="text"], .registration .form_section select, .seimens_tab_con .topcon, .registration .form_section, .contactus .imgbox p {
+		width: 100%;
+	}
+	header .banner .content_box p {
+		width: 90%;
+		background: none;
+		font-size: 18px;
+		line-height: 24px;
+		padding: 0px 30px 15px;
+	}
+	header .banner .contentblock {
+		padding-top: 0px;
+	}
+	header .banner .content_box {
+		padding: 0;
+	}
+	header .banner .contentblock .main_content {
+		padding: 15px 15px 15px 30px;
+	}
+	header .banner .contentblock .main_content .lftvideo img {
+		height: auto;
+	}
+	.registration .form_section_btn {
+		width: 50%;
+	}
+	.seimens_tab_con .conimg img {
+		width: 100%;
+		height: 100%
+	}
+	.contactus .imgbox button {
+		float: none;
+	}
+	.product .productsec .imgsec {
+		text-align: center
+	}
+	.slick-initialized .slick-slide {
+		width: 200px !important;
+		margin-bottom: 20px
+	}
+	.regular img {
+		display: block;
+		margin: 0 auto;
+	}
+	.twitter .tweets h3, .twitter .tweets p {
+		text-align: center
+	}
+	.news .events h3 {
+		padding: 50px 5px 0 5px;
+	}
+	.news .events p {
+		padding: 20px 5px 0 5px;
+	}
+	.registration {
+		padding: 40px 20px;
+	}
+	.seimens_tab .inner_tab ul li a {
+		font-size: 14px;
+	}
+	.seimens_tab_con {
+		padding: 35px 20px 0 20px;
+	}
+	.seimens_tab_con .topcon h2 {
+		font-size: 24px;
+		padding-bottom: 15px;
+	}
+	.seimens_tab_con .content {
+		position: relative;
+		top: 18px;
+	}
+	.seimens_tab_con .mainbox_section {
+		padding-top: 40px;
+	}
+	.contactus p, .contact_siemens_section .contact_siemens {
+		padding-bottom: 20px;
+	}
+	.contactus h2 {
+		padding-bottom: 12px;
+	}
+	.twitter .tweets h2 {
+		padding-left: 20px;
+	}
+	.contactus {
+		padding-left: 20px;
+	}
+	.disclaimer {
+		padding: 20px;
+	}
+	.contact_siemens_section .list {
+		padding-top: 20px;
+	}
+	.contact_siemens_section .list ul li {
+		padding: 10px 20px 10px 0;
+	}
+	.contact_siemens_section .list ul li a {
+		text-decoration: underline
+	}
+	.roadmap, .product, .news .events {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.roadmap .autocom p {
+		background: #ebf0f5 url(../img/down_arrow.png) no-repeat 95% 14px;
+	}
+	.active_roadmap {
+		background: #ebf0f5 url(../img/up_arrow.png) no-repeat 95% 14px !important;
+	}
+	.contact_siemens_section {
+		padding-left: 20px;
+	}
+	.colnopad {
+		padding-right: 15px;
+	}
+	.roadmap {
+		padding-top: 25px;
+	}
+	.roadmap h3 {
+		padding-bottom: 10px;
+	}
+	.roadmap .autocom .content {
+		min-height: 150px;
+	}
+	.roadmap .autocom .owl-stage-outer .content {
+		padding: 0px 15px 15px 15px;
+	}
+	.roadmap .autocom .content h3 {
+		padding-bottom: 5px;
+	}
+	.product .autocom .content {
+		min-height: 0px;
+	}
+}
+@media(max-width:767px) {
+	header .banner .contentblock {
+		padding-top: 0;
+		margin: 0 -15px;
+	}
+	header .banner {
+		background: none;
+		height: auto;
+	}
+	header .mobile-banner {
+		background: url(../img/banner.jpg) no-repeat 0 0;
+		height: 175px;
+		background-position: center center;
+		background-size: cover;
+	}
+	.container, .container-fluid, .registration .contentbox, .registration .form_section input[type="text"], .registration .form_section select, .seimens_tab_con .topcon, .registration .form_section, .contactus .imgbox p, header .banner .contentblock .main_content, header .banner .content_box p, .registration .form_section_btn {
+		width: 100%;
+	}
+	header .banner .contentblock .main_content .lftvideo img {
+		height: 60px;
+		width: 60px;
+	}
+	header .banner .contentblock .main_content h2 {
+		font-size: 30px;
+	}
+	header .banner .contentblock .main_content {
+		padding: 15px 0 0 15px;
+	}
+	header .banner .contentblock .main_content h2 {
+		padding-left: 0;
+	}
+	header .banner .content_box p {
+		background: url(../img/top_bg2.jpg);
+	}
+	.registration {
+		padding: 30px 0;
+	}
+	.seimens_tab_con .conimg img {
+		padding-bottom: 20px;
+	}
+	.siemens_background {
+		padding-top: 20px;
+	}
+	.siemens_background p {
+		padding-bottom: 10px;
+	}
+	.siemens_background .process {
+		padding-top: 5px;
+	}
+	.siemens_background button {
+		float: left;
+		margin-top: 10px;
+	}
+	.contact_siemens_section .contact_siemens {
+		padding-bottom: 15px;
+	}
+	.contact_siemens_section .contact_siemens h3 {
+		padding-bottom: 10px;
+	}
+	.contact_siemens_section .contact_siemens p {
+		padding-bottom: 8px;
+	}
+	.contact_siemens_section .follow_us h3 {
+		padding-bottom: 15px;
+	}
+	.contact_siemens_section .list {
+		padding-top: 10px;
+	}
+	.registration .form_section input[type="text"] {
+		height: 40px;
+	}
+	.registration .contentbox p {
+		padding-bottom: 30px;
+	}
+	.registration .form_section_btn .send_button, .registration .form_section_btn .submit_button, .registration .form_section_btn .resend_button {
+		margin-top: 0;
+	}
+	.registration .form_section_btn .refresh {
+		margin-top: 10px;
+	}
+	.roadmap {
+		padding-top: 25px;
+	}
+	.roadmap h3 {
+		padding-bottom: 10px;
+		font-size: 20px;
+	}
+	.news .events h3 {
+		font-size: 20px;
+	}
+	.roadmap .autocom .content {
+		min-height: 130px;
+		padding: 0px 15px;
+	}
+	.roadmap .autocom .owl-stage-outer .content {
+		padding: 5px 0;
+	}
+	.roadmap .autocom .content h3 {
+		padding-bottom: 5px;
+	}
+	.product .autocom .content {
+		min-height: 0px;
+	}
+	.slider-container {
+		padding: 0 15px;
+	}
+	.thumbnail-slider-container {
+		position: relative;
+		top: 0px;
+		padding: 0;
+	}
+	.autocom .thumbnail-slider-container .content img {
+		height: 42px;
+		width: 95%;
+	}
+	.siemens_background a {
+		font-size: 10px;
+	}
+	.registration .form_section ul li {
+		width: auto;
+		float: none;
+		padding: 0 15px;
+	}
+	.registration .form_section select {
+		height: 40px;
+		line-height: 40px;
+	}
+	header .banner .content_box {
+		padding: 0;
+		margin: 0 -15px;
+	}
+	header .banner .content_box p {
+		padding: 10px 15px 15px;
+	}
+	header .logo {
+		padding: 20px 0px;
+		margin-left: 20px;
+	}
+	.banner-content {
+		position: relative;
+		top: 0;
+	}
+	.thanks_div {
+		max-width: inherit;
+		width: auto;
+		margin: 25px auto 0;
+		padding-left: 15px;
+	}
+	.contact_siemens_section {
+		margin-top: 40px;
+	}
+	.thanks_div h2 {
+		font-size: 22px;
+	}
+	.thanks_div {
+		padding-left: 0;
+	}
+	.thankyou_section {
+		padding: 0 15px;
+	}
+	.contact_siemens_section .list ul li {
+		margin-bottom: 5px;
+	}
+	.contact_siemens_section {
+		padding: 15px 0;
+	}
+	.news .events .share, .news .events .event_gallery, .event-description {
+		margin: 0 15px;
+	}
+	.news {
+		padding-top: 40px;
+	}
+	.news .events h3 {
+		padding: 30px 0 0 0;
+	}
+	.news .events .share {
+		padding: 0px 0 25px;
+	}
+	.gallery, .gallery_thumbs {
+		padding: 0 15px;
+	}
+	.gallery_thumbs .gallery_album {
+		margin-bottom: 25px;
+	}
+	.album_carousel.owl-theme .owl-nav [class*='owl-'], .album_carousel.owl-theme .owl-nav [class*='owl-']:hover {
+		color: #000;
+	}
+	.album_carousel .owl-prev {
+		left: -45px;
+	}
+	.album_carousel .owl-next {
+		right: -45px;
+	}
+	.events .owl-prev {
+		left: -15px;
+	}
+	.events .owl-next {
+		right: -15px;
+	}
+	.tab-title-info p {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	iframe {
+		width: 90%;
+		height: 200px;
+	}
+	.close_icon {
+		right: 10px;
+		top: 0px;
+	}
+	.roadmap .autocom .content h3 {
+		font-size: 18px;
+	}
+	.product .autocom .content h4, .seimens_tab_con .topcon p, .seimens_tab_con .content p, .contact_siemens_section .contact_siemens p, .contact_siemens_section .contact_siemens p a {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.contact_siemens_section .contact_siemens h3 {
+		font-size: 18px;
+	}
+	.combine-data {
+		padding: 0 15px 25px;
+	}
+	.roadmap .autocom .content, .slider-container {
+		padding: 0;
+	}
+	.roadmap .autocom .content h4 {
+		font-size: 14px;
+	}
+	div.info {
+		float: none;
+	}
+	.seimens_tab_con .topcon {
+		margin-bottom: 10px;
+	}
+	.seimens_tab_con .topcon h6, .seimens_tab_con .content h2 {
+		font: bold 18px "siemens-sans-roman";
+	}
+	.seimens_tab_con .content h2 {
+		padding-bottom: 5px;
+	}
+	.seimens_tab .inner_tab ul li {
+		float: none;
+		border: 1px solid #000;
+		width: auto;
+		display: block;
+	}
+	.seimens_tab {
+		margin-top: 50px;
+	}
+	.product .autocom .content h4 .img-responsive {
+		margin-bottom: 15px;
+	}
+}
+@media(min-width:360px) and (max-width:767px) {
+	.siemens_background .process {
+		padding-top: 10px;
+	}
+	.siemens_background a {
+		font-size: 12px;
+	}
+}
+@media(max-width:375px) {
+	header .banner .contentblock .main_content .lftvideo img {
+		height: 50px;
+		width: 50px;
+	}
+	header .banner .contentblock .main_content h2 {
+		font-size: 25px;
+		line-height: 30px;
+	}
+}
+@media(max-width:320px) {
+	header .banner .contentblock .main_content .lftvideo img {
+		height: 35px;
+		width: 35px;
+	}
+	header .banner .contentblock .main_content h2 {
+		font-size: 24px;
+		padding-left: 0px;
+	}
+	.registration .form_section_btn .send_button, .registration .form_section_btn .submit_button, .registration .form_section_btn .resend_button {
+		width: 105px;
+	}
+}

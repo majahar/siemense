@@ -1,0 +1,1 @@
+<div id="powered">Powered by: <a href="http://www.aurumcommunications.com"><img src="<?php echo APP_SITE_PATH_IMAGES;?>logo.png" height="15px" alt="Aurum Communications" title="Aurum Communications"></a></div>

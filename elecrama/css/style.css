@@ -1,0 +1,727 @@
+@font-face {
+	font-family: "siemens-sans-roman";
+	src: url("fonts/siemens-sans-roman.eot");
+	src: url("fonts/siemens-sans-roman.eot#iefix") format("embedded-opentype"),
+	url("fonts/siemens-sans-roman.woff") format("woff"),
+	url("fonts/siemens-sans-roman.ttf") format("truetype"),
+	url("fonts/siemens-sans-roman.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family:'SiemensSlab-Roman';
+	src: url('fonts/SiemensSlab-Roman_gdi.eot');
+	src: url('fonts/SiemensSlab-Roman_gdi.eot?#iefix') format('embedded-opentype'),
+		url('fonts/SiemensSlab-Roman_gdi.woff') format('woff'),
+		url('fonts/SiemensSlab-Roman_gdi.ttf') format('truetype'),
+		url('fonts/SiemensSlab-Roman_gdi.svg#SiemensSlab-Roman') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0021-25CA;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: arial;
+    font-weight: normal;
+    color:#333;
+}
+h1, h2, h3, h4, h5, h6, p, ul, li, dl, dt, dd, caption, th, td, label {
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+h1{
+    font: 26px/1.2 "siemens-sans-roman",Arial,Geneva,Helvetica,sans-serif;
+    margin-bottom: 11px;
+}
+h2{
+    font: 26px/1.2 "siemens-sans-roman",Arial,Geneva,Helvetica,sans-serif;
+    margin-bottom: 11px;
+}
+.clearfix {
+    min-height: 1%;
+}
+.clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+a {
+    color: #333;
+    font-family: Arial,Geneva,Helvetica,sans-serif;
+    text-decoration: none;
+	outline:none;
+	border:0px;
+}
+a  img{ border:0px;}
+body.page-type-entry {
+    background: url("../images/bg.jpg") repeat-x #fff;
+	background-position: 0 0;
+	overflow-x: hidden;
+}
+body.page-type-entry .header {
+    background-color: #afb4be;
+    height: 393px;
+    width: 100%;
+    overflow: hidden;
+}
+.techstories-banner{
+    background: url("../images/banner.jpg") no-repeat;
+    height: 393px;
+    overflow: hidden;
+    position: relative;
+    width: 987px;
+}
+.elecrama_banner{ 
+	background: url("../images/elecrama_banner.jpg") no-repeat;
+    height: 393px;
+    overflow: hidden;
+    position: relative;
+    width: 963px;
+}
+
+.techstories-box {
+    background: url(../images/dark-overlay.png) repeat;
+    box-sizing: border-box;
+    height: 170px;
+    padding: 15px 25px;
+    position: absolute;
+    left: 44px;
+    bottom: 20px;
+    width: 385px;
+}
+.techstories-box h2, .techstories-box .h2 {
+    color: #fff;
+    font: 26px/1.2 "siemens-sans-roman",Arial,Geneva,Helvetica,sans-serif;
+    margin-bottom: 5px;
+}
+.techstories-box .h3 {
+    color: #fff;
+    font: 18px/1.2 "siemens-sans-roman",Arial,Geneva,Helvetica,sans-serif;
+    margin-bottom: 5px;
+}
+.techstories-call-to-action {
+    background: #eb780a url("../images/button-arrow.png") no-repeat scroll 10px center;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 9px 12px 9px 21px;
+}
+.wrapper{
+    width: 930px;
+    margin:0 0 0 34px;
+}
+.toolbar-zone {
+    margin: 0;
+    max-width: 100%;
+    padding: 0 0 0 0;
+    top:2px;
+    height: 18px;
+    position: relative;
+    background: #999999;
+}
+.process-flag{
+    background: url("../images/arrow-toolbar.png") no-repeat 0px 2px;
+    padding: 0px 0 0 18px;
+    width:300px;
+    float:left;
+}
+.process-flag a{
+    color:#fff;
+    background: url(../images/flag.png) no-repeat 0 -2px;
+    padding: 0 0 0 30px;   
+    font-size: 12px;
+    line-height: 15px;
+    display: block;
+    font-family:'SiemensSlab-Roman';
+}
+.process-flag:hover{
+    background-position: 0px -18px;
+}
+.process-flag:hover a{color:#ddd;}
+.searchbox{
+     float: right;   
+}
+input{
+    padding:0 5px;
+    margin:0;
+    vertical-align: top;
+    font-size: 12px;
+}
+.input{
+    border:1px solid #666;
+}
+.btn{
+    background: #666;
+    color: #fff;
+    border-width:1px;
+    border-style: solid;
+    border-color: #fff #333 #333 #fff;
+    padding:0 0 0 0;
+    margin:0 5px 0 0;
+}
+.content-zone{
+    margin: 0 0 35px 0;
+	float:left; width:100%;
+	clear:both;
+}
+.section{
+    width: 600px;
+    float:left;
+}
+.section h1{
+    font-size: 30px;
+    color:#333;
+    line-height: 36px;
+    font-family:'SiemensSlab-Roman';
+    margin: 0 0 10px;
+}
+.section span{
+    font-size: 18px;
+    color:#666;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    display: block;
+    font-family:'SiemensSlab-Roman';
+}
+.section p{
+    font-size: 14px;
+    color:#333;
+    line-height: 22px;
+    margin: 0 0 20px 0;
+}
+.section a.link, .via_mail a.link{
+    color: #990000;
+    font: normal 14px arial;
+    text-decoration: underline;
+}
+.sidebar{
+    width: 275px;
+    float:right;
+    margin: 0 0 0 45px;
+}
+.sidebar b {
+    color: #333333;
+    font-family: arial, sans-serif;
+    padding: 0px;
+    font-size: 13px;
+    display: block;
+}
+.sidebar img.adds{
+    margin:15px 0 20px 0;
+    display: inline-block;
+     max-width: 100%;
+	 border:0px;
+}
+.section .btn-apply{
+    background: #990000;
+    color:#fff;
+    font: normal 12px arial;
+    border:0;
+    padding:3px 7px;
+    border-radius: 3px;
+    margin: 0 0 25px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-holder .btn-apply{
+    background: #990000;
+    color:#fff;
+    font: normal 12px arial;
+    border: 1px solid #990000;
+    padding:3px 7px;
+    border-radius: 3px;
+    margin: 0 0 0;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer{
+    height: 40px;
+    border-top:1px solid #999999;
+    width: 100%;
+    float: left;
+}
+.footer p, .footer a{
+    color:#999999;
+    font:normal 10px arial;
+    text-decoration: none;
+    margin: 15px 0;
+    border: 0;
+    outline: none;
+}
+.logo {
+    background: url("../images/logo.gif") no-repeat 0 0;
+    height: 72px;
+    left: 44px;
+    position: absolute;
+    top: 0;
+    width: 172px;
+    z-index: 300;
+}
+.logo a {
+    display: block;
+    height: 72px;
+    width: 172px;
+}
+.overlay{
+    background: url("../images/overlay.png") repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: none;
+}
+.thanku-mobile, .thanku{
+    position: relative;
+    display: none;
+}
+.pop-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 435px;
+    height: 325px;
+    background: #fff;
+    padding: 20px;
+    z-index: 5;
+    text-align: center;
+}
+.close{
+position: absolute;
+    top: 0;
+    right: 0;
+}
+.pop-container p.msg{
+    color: #009999;
+    font-family: "siemens-sans-roman";    
+    margin: 75px 0 40px 0;
+}
+.pop-container p{
+    color: #666;
+    font-family: "siemens-sans-roman";    
+    margin: 0 0 40px 0;
+    line-height: 23px;
+}
+.pop-container h2, .pop-container h3{
+    font-size: 30px;
+    font-family:'SiemensSlab-Roman';
+    margin: 0 0 25px 0;
+}
+.form-container{
+    position: relative;
+}
+.centerform{
+    width:290px;
+}
+.form p{
+    margin: 0 0 25px 0;
+}
+.form h3, .form h2{
+    font-family:'SiemensSlab-Roman';
+    font-size: 18px;
+    margin: 0 0 20px 0;
+}
+.form label{
+    margin: 10px 0 10px 0;
+    font:normal 11px arial;
+    display: block;
+}
+.form .input{
+    width:280px;
+    display: block;
+    margin: 0 0 0 0;
+    padding: 2px 5px;
+     font-size: 12px;
+}
+.form select.input{
+    width:290px;
+}
+.block{
+    display: block;
+}
+.moreinfo p{
+    font: bold 13px arial;
+    margin: 0 0 20px 0;
+}
+.moreinfo .input{
+    padding: 2px 2%;
+    width: 96%;
+    margin: 0 0 0px 0;
+    border: 1px solid #006a78;
+	color:#666666;
+	font-size:11px;
+}
+.form .btn-holder .btn{
+    margin-right: 10px;
+}
+.btn-holder{
+    text-align: left;
+}
+.form .btn-holder {
+    border-bottom: 1px solid #333;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.via_mail p{
+    margin: 0 0 10px;
+}
+
+/*custom file upload starts*/
+.custom-file-upload-hidden {
+  display: none;
+  visibility: hidden;
+  position: absolute;
+  left: -9999px;
+}
+
+.custom-file-upload {
+  display: block;
+  width: auto;
+  font-size: 14px;
+  margin-top: 10px;
+  padding-bottom: 0px;
+}
+.custom-file-upload label {
+  display: block;
+  margin-bottom: 5px;
+}
+.custom-file-upload > p {
+    font: 12px arial;
+    margin: 0 0 2px;
+}
+.file-upload-wrapper {
+  position: relative;
+  margin-bottom: 0px;
+  height: 20px;
+}
+
+.file-upload-input {
+  width: 210px;
+  color: #333;
+  font-size: 11px;
+  padding: 0px 5px;
+  height: 18px;
+  border: 1px solid #666;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  float: left;
+  /* IE 9 Fix */
+}
+.file-upload-input:hover, .file-upload-input:focus {
+  outline: none;
+}
+
+.file-upload-button {
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+  font-size: 11px;
+  padding: 2px 5px;
+  height: 20px;
+  border: none;
+  margin-left: -1px;
+  background-color: #999;
+  float: left;
+  /* IE 9 Fix */
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+/*custom file upload ends*/
+.sharer{text-align: left;margin: 0 0 10px 0;}
+.sharer ul li{display: inline; list-style: none; font-size: 11px;vertical-align: bottom;}
+.sharer ul li img{width: 25px; height: 25px; border: 0;}
+div.minus{
+    background: url("../images/font-sizes.png") no-repeat 0 0;
+    height: 12px; width: 12px;
+}
+div.plus{
+    background: url("../images/font-sizes.png") no-repeat -15px -27px;
+    height: 12px; width: 12px;
+}
+div.minus:hover{
+    background-position: 0 -27px;
+}
+div.plus:hover{
+    background-position: -15px 0;
+}
+
+.moreinfo p {
+    font-size: 18px;
+	font-family:"siemens-sans-roman",Arial,Geneva,Helvetica,sans-serif;
+    color: #000;
+	font-weight:normal;
+}
+
+.moreinfo {
+    background: #55adb9;
+    padding: 20px;
+    margin: 0 0 25px 0;
+}
+
+.spacer {
+    height: 50px;
+}
+.btn-holder-msg{
+    color:#990000;
+}
+.frmErr{
+    color:#990000;
+    margin-bottom: 10px;
+    font: normal 11px arial;
+    display: block;
+    margin-top: 2px;
+}
+.bredcrumes {
+    height: 15px;
+    margin: 20px 0;
+}
+
+.bredcrumes ul li {
+    list-style: none;
+    font: normal 12px "siemens-sans-roman",Arial,Geneva,Helvetica,sans-serif;
+    background: url("../images/list-style.png") no-repeat 2px 5px;
+    padding: 0 15px 0 15px;
+    float: left;
+}
+
+.bredcrumes ul li.active {
+    color: #990000;
+}
+.bredcrumes ul li a {
+    outline: none;
+    border: none;
+}
+
+.bredcrumes ul li.active a{
+    color: #990000;
+}
+
+.via_mail b a {
+    color:#990000;
+    text-decoration: underline;
+}
+
+.bredcrumes ul li a {
+    font: normal 12px "siemens-sans-roman",Arial,Geneva,Helvetica,sans-serif;
+	padding-bottom:7px;
+}
+.moreinfo {
+    float: left;
+}
+.content-zone .techstories-call-to-action {
+    background: #eb780a url("../images/button-arrow.png") no-repeat scroll 15px center;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 15px 22px 15px 30px;
+}
+.content-zone .techstories-call-to-action:hover {
+    background: #ca5a1e  url("../images/button-arrow.png") no-repeat scroll 15px center;
+}
+.techstories-call-to-action:hover {
+    background: #ca5a1e  url("../images/button-arrow.png") no-repeat scroll 10px center;
+}
+.btn-upload {
+    background: #990000;
+    border: 0 none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: table-cell;
+    float: left;
+    font: 12px arial;
+    margin: 0 0 0 8px;
+    padding: 3px 7px;
+    text-decoration: none;
+}
+/*
+.custom-file-upload, .file-upload-wrapper{float: left;}
+.form .btn-holder{
+    width: 100%;
+    float: left;
+}*/
+a.btn-apply:hover {
+    background-color: #999;
+    border: 1px solid #888;
+}
+.sharer ul li.whatsapp{display: none;}
+/* new css for elecrama */
+.venue_bg{ background:#a4c4fd; float:left; width:100%; }
+.venue_bg ul { padding:15px; margin:0px;}
+.venue_bg ul  li { font-size:14px; color:#333333; margin-bottom:20px; list-style:none; font-family: arial;}
+.venue_bg ul  li.last{ margin-bottom:0px;} 
+.venue_bg ul  li strong.title-venue{ float:left;  min-width:58px; }
+strong.dots{ float:left; }
+.venue_bg ul  li p { padding-left:70px; margin:0px; line-height:18px;}
+.product-container{ margin:28px 0px 0px 0px; float:left; width:100%;}
+.showcase-product{ float:left; width:100%;  border-bottom:1px solid #999999 }
+.showcase-product h2 {  color:#333333; font: normal 20px "siemens-sans-roman",Arial,Geneva,Helvetica,sans-serif; margin-bottom:20px;}
+.showcase-product ul li { float:left; width:290px; margin-right:15px; list-style:none; display:inline-block; margin-bottom:30px;}
+.showcase-product ul li img{ margin-bottom:15px;}
+.showcase-product ul li.last{ margin-right:0px;}
+.showcase-product ul li h3{ color:#333333; font: normal 16px "SiemensSlab-Roman",Arial,Geneva,Helvetica,sans-serif; margin-bottom:12px; font-weight:bold; }
+.virtual-tour{ border:0px; margin-bottom:0px; margin-top:30px; float:left; width:100%; }
+.virtual-tour  h2 {  color:#333333; font: normal 20px "siemens-sans-roman",Arial,Geneva,Helvetica,sans-serif; margin-bottom:20px;}
+.virtual-tour ul li { float:left; width:190px; margin-right:15px; list-style:none; display:inline-block; margin-bottom:0px;}
+.virtual-tour ul li.last{ margin-right:0px;}
+.click-action-btn {
+    background: #eb780a url("../images/button-arrow.png") no-repeat scroll 10px center;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 5px 12px 5px 21px;
+}
+.wrapper{ position:relative;}
+.bottom_position{ position:absolute; bottom:0px; right:0px; margin-right:165px; }
+.sidebar_height{ height:1240px; position:relative;}
+.sharer{ float:right; margin-right:165px;}
+/*ms */
+.show-product h2 {  color:#333333; font: normal 20px "siemens-sans-roman",Arial,Geneva,Helvetica,sans-serif; margin-bottom:20px;}
+.products-container{ float:left; width:100%; margin-bottom:30px; border-bottom:1px solid #e1e1e1; padding-bottom:18px;}
+.products-container.no-border{ margin-bottom:0px; padding-bottom:0px;}
+.prod-pic{ float:left; width:189px; margin-right:18px;}
+.prod-details { float:left; width:390px; padding-bottom:20px;}
+.prod-details h6{ color:#333333; font: normal 14px "siemens-sans-roman",Arial,Geneva,Helvetica,sans-serif; margin-bottom:10px; font-weight:bold;}
+.prod-details p{ color:#333333; font: normal 13px arial; margin-bottom:10px;}
+.prod-details ul{ margin-left:14px;}
+.prod-details ul li{ color:#333333; font: normal 13px arial; margin-bottom:10px;}
+.prod-details p a{ color:#990000; font: normal 12px "siemens-sans-roman",Arial,Geneva,Helvetica,sans-serif;}
+.no-border{ border:0px !important;}
+.bredcrumes ul li{ position:relative;}
+ul.drop-m{ width:220px;  background:#eeeeee; border-top:1px solid #999999; margin:0px; padding:0px;  display:none; position:absolute; left:0px; top:18px; z-index:2;}
+ul.drop-m li{ color:#666666; font: normal 11px "siemens-sans-roman",Arial,Geneva,Helvetica,sans-serif; border-bottom:1px solid #999999; display:block; width:182px; padding:5px 15px 5px 22px; background: url("../images/list-style.png") no-repeat 10px 9px;}
+ul.drop-m li a, .bredcrumes ul li.active  ul.drop-m li a{color:#666666; padding-bottom:0px;}
+/*DP css*/
+.digital-factory {
+    font: normal 20px "siemens-sans-roman", Arial, Geneva, Helvetica, sans-serif;
+}
+.showcase-product .process-drives ul li {
+    float: left;
+    width: 185px;
+    margin: 0px 15px 30px 0;
+    list-style: none;
+    display: inline-block;
+}
+.showcase-product .process-drives ul li img{ width:100%;}
+.showcase-product  .process-drives h3 {
+    color: #333333;
+    font: normal 14px "SiemensSlab-Roman", Arial, Geneva, Helvetica, sans-serif;
+    margin-bottom:15px;
+    font-weight: bold;
+    min-height: inherit;
+}
+.dp_border{ padding-bottom:0px; border-bottom:0px;}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+    body.page-type-entry{background: none;}
+    .wrapper{margin:0; width: 100%;}
+    .techstories-box, .logo{left: 20px; right: 20px;}
+    .techstories-banner{ width: 100%;}
+    .techstories-box{width:auto;}
+    .techstories-box h2{font-size: 18px;}
+    .bredcrumes, .toolbar-zone{padding: 0 20px;}   
+    .content-zone{padding: 0 20px;}   
+    .footer{ height: auto;padding: 0 3% 5px; width: 94%; text-align: center;}   
+    .section{ width: 90%; margin:auto}
+    .sidebar {float: left; margin: 0 auto; width: 90%; clear:both;}
+    .sidebar img.adds{margin:15px 20px 20px 0;}
+    .pop-container{width: 80%; margin: 5% 0 0 5%; padding: 5%; height: auto; position: fixed;}
+    .pop-container h2{margin: 0 0 75px;}
+    .sharer{margin: 0 15px 10px 20px; float:left; margin-right:0px;}
+    .sharer ul li.whatsapp{display: inline-block;}
+    .bredcrumes ul li {margin-bottom: 10px;}
+	.elecrama_banner{ width:100%;}
+	.techstories-box h2, .techstories-box .h2{ font-size:20px;}
+	.showcase-product h2{ margin-bottom:11px;}
+	
+	/*new */
+	.showcase-product{  padding-right:0px; margin-right:0px; margin-bottom:0px; width:100%;}
+	.showcase-product ul li{ clear:both; margin-top:0px; margin-bottom:20px;}
+	.showcase-product ul li h3{ padding-top:20px;}
+	.bottom_position{ position:relative; margin-right:0px; }
+	.sidebar_height{ height:auto; position:relative;}
+	.sharer.bottom_position { margin-left:0px;}
+	.prod-details{ width:100%; clear:both;}
+	.prod-pic{ width:100%; clear:both;}
+	.prod-details h6{ margin-top:15px;}
+	.section h1{ font-size:19px; line-height:normal;}
+	.section span{ font-size:15px;}
+	.virtual-tour{ padding-bottom:20px;}
+	.virtual-tour ul li{ margin-bottom:15px;}
+	.showcase-product ul li img{ width:100%;}
+	
+/*
+    .sharer ul li{display: none;}
+    .sharer ul li:last-child {display: inline-block;}
+*/
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 999px) {
+    body.page-type-entry{background: none;}
+    .wrapper{margin:0; width: 100%;}
+    .techstories-box, .logo{left: 20px; right: 20px;}
+    .techstories-banner{ width: 100%;}
+    .techstories-box{width:auto;}
+    .techstories-box h2{font-size: 18px;}
+    .bredcrumes, .toolbar-zone{padding: 0 20px;}   
+    .content-zone{padding: 0 20px; width:auto;}   
+    .footer{padding: 0 20px;}   
+    .section{width: 60%; margin: 0 5% 0 0;}
+    .sidebar {float: right; margin: 0;width: 35%;}
+    .sidebar img.adds{margin:0 20px 20px 0;}
+    .sharer{margin: 0 15px 10px 20px;}
+    .sharer ul li.whatsapp{display: inline-block;}
+	/* new */
+	.showcase-product{  width:100%;}
+	.showcase-product img{ width:100%;}
+	.showcase-product ul li{ width:135px; margin-right:12px;}
+	.prod-details h6{ margin-top:15px;}
+	.elecrama_banner{ width:100%;}
+	.section h1{ font-size:25px;}
+	.showcase-product ul li h3{ font-size:14px;}
+	.showcase-product ul li{ width:210px;}
+	
+	
+
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .techstories-box{ width: 385px;}
+    .sharer ul li.whatsapp{display: inline-block;}
+}
+
+/*ie 8 isseus*/
+.custom-file-upload label {
+    display: inline-block;
+    margin: 0;
+}
+label.file-upload-button{padding: 4px 5px; height: 12px;}
+
+
+.sharer p {
+    margin: 0 0 12px 0;
+}
+.error{color: #990000; font-size: 12px; line-height: 25px;}

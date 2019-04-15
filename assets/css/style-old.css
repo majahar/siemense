@@ -1,0 +1,910 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*================================================ font ===================================================*/
+@font-face {
+	font-family: "siemens-sans-roman";
+	src: url("../font/siemens-sans-roman.eot");
+	src: url("../font/siemens-sans-roman.eot#iefix") format("embedded-opentype"), url("../font/siemens-sans-roman.woff") format("woff"), url("../font/siemens-sans-roman.ttf") format("truetype"), url("../font/siemens-sans-roman.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'SiemensSlab-Roman';
+	src: url('../font/SiemensSlab-Roman_gdi.eot');
+	src: url('../font/SiemensSlab-Roman_gdi.eot?#iefix') format('embedded-opentype'), url('../font/SiemensSlab-Roman_gdi.woff') format('woff'), url('../font/SiemensSlab-Roman_gdi.ttf') format('truetype'), url('../font/SiemensSlab-Roman_gdi.svg#SiemensSlab-Roman') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0021-25CA;
+}
+
+/*================================================ font ===================================================*/
+
+/*================================================ extra ===================================================*/
+
+.cl {
+	clear: both
+}
+
+/*.container {
+	width: 1025px;
+}*/
+::-webkit-input-placeholder {
+
+	/* Chrome/Opera/Safari */
+	color: #333333;
+	font-family: "siemens-sans-roman";
+	font-size: 18px;
+}
+::-moz-placeholder {
+
+	/* Firefox 19+ */
+	color: #333333;
+	font-family: "siemens-sans-roman";
+	font-size: 18px;
+}
+:-ms-input-placeholder {
+
+	/* IE 10+ */
+	color: #333333;
+	font-family: "siemens-sans-roman";
+	font-size: 18px;
+}
+:-moz-placeholder {
+
+	/* Firefox 18- */
+	color: #333333;
+	font-family: "siemens-sans-roman";
+	font-size: 18px;
+}
+option {
+	border: 0px;
+}
+.pad5 {
+	padding: 5px 0 0px 15px !important;
+}
+ul.tabs {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li {
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+ul.tabs li.current {
+	background: #fff;
+	color: #004a64;
+}
+.tab-content {
+	display: none;
+}
+.tab-content.current {
+	display: inherit;
+}
+.slick-dots li {
+	background: url(../img/dot.png) no-repeat 3px 2px;
+}
+.slick-dots .slick-active {
+	background: url(../img/dot_active.png) no-repeat 0 0 !important;
+}
+.slick-dots li button {
+	display: none
+}
+.active_roadmap {
+	background: #ebf0f5 url(../img/up_arrow.png) no-repeat 95% 14px !important;
+}
+.owl-prev {
+	position: absolute;
+	background: url(../img/pre.png) no-repeat 0 0 !important;
+	font-size: 0px !important;
+	width: 43px;
+	height: 43px;
+	top: 112px;
+	left: -115px;
+}
+.owl-next {
+	position: absolute;
+	top: 112px;
+	right: -115px;
+	background: url(../img/next.png) no-repeat 0 0 !important;
+	font-size: 0px !important;
+	width: 43px;
+	height: 43px;
+}
+.owl-dot {
+	background: url(../img/dot.png) no-repeat 0 0 !important;
+}
+.owl-dot.active {
+	background: url(../img/dot_active.png) no-repeat 0 0 !important;
+	top: -2px;
+	position: relative;
+}
+.owl-carousel1 .item {
+	float: left;
+}
+.image-gallery {
+	display: block
+}
+.fa-twitter {
+	color: #5ea9dd
+}
+.fa-twitt, .fa-linkedin, .fa-facebook, .fa-youtube-play, .fa-envelope {
+	color: #697882 !important
+}
+
+/*.col-md-6, .col-md-8, .col-md-3, .col-md-12, .col-md-2 {
+padding-left: 0px;
+}*/
+.lSSlideOuter .lSPager.lSGallery {
+	position: relative;
+	left: 15%;
+}
+.lSSlideWrapper {
+	text-align: center
+}
+.lSSlideOuter {
+	background: #ebf0f5;
+	padding-bottom: 5px;
+}
+.lSSlideOuter .lightSlider {
+	padding-top: 17px;
+}
+.colnopad {
+	padding-right: 0px;
+}
+
+/*================================================ extra ===================================================*/
+
+/*================================================ Main ===================================================*/
+
+header {
+}
+header .logo {
+	padding: 20px 10px;
+	margin-left: 10%;
+}
+header .banner {
+	background: url(../img/banner.jpg) no-repeat 0 0;
+	height: 410px;	/*background-size: 100%;*/
+}
+header .banner .contentblock {
+	padding-top: 95px;
+}
+header .banner .contentblock .main_content {
+	width: 548px;
+	background: url(../img/top_bg.jpg) no-repeat 0 0;
+	padding: 15px 0 35px 15px;
+}
+header .banner .contentblock .main_content .lftvideo {
+	float: left;
+	cursor: pointer
+}
+header .banner .contentblock .main_content h2 {
+	float: left;
+	padding-left: 15px;
+	color: #fff;
+	font-size: 45px;
+	font-family: "siemens-sans-roman";
+}
+header .banner .content_box {
+	padding: 18px 0 18px 0px;
+}
+header .banner .content_box p {
+	width: 548px;
+	padding: 15px;
+	background: url(../img/top_bg2.jpg) no-repeat 0 0;
+	color: #fff;
+	font-size: 13px;
+	line-height: 20px;
+	font-family: "siemens-sans-roman";
+}
+.registration {
+	padding: 70px 0;
+	background: #016386;
+}
+.registration .contentbox {
+	width: 710px;
+}
+.registration .contentbox h2 {
+	padding-bottom: 25px;
+	color: #fff;
+	font-size: 30px;
+	font-family: "siemens-sans-roman";
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+.registration .contentbox p {
+	line-height: 23px;
+	padding-bottom: 45px;
+	color: #fff;
+	font-size: 16px;
+	font-family: "siemens-sans-roman"
+}
+.registration .form_section {
+	width: 710px;
+	overflow: auto
+}
+.registration .form_section input[type="text"] {
+	width: 95%;
+	height: 45px;
+	background: #fff;
+	padding-left: 15px;
+	margin-bottom: 20px;
+	border: 0px;
+	line-height: 45px;
+}
+.registration .form_section select {
+	width: 95%;
+	height: 45px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+	background: #fff url('../img/dropdown_img.png') no-repeat 97% center;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	font-size: 18px;
+	border: 0px;
+	font-family: "siemens-sans-roman";
+	line-height: 45px;
+}
+.registration .form_section_btn {
+	width: 35%
+}
+.registration .form_section_btn .send_button {
+	margin-top: 20px;
+	background: #2486a9;
+	width: 125px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 15px;
+	float: left;
+	margin-right: 15px;
+	border: 0px;
+	padding: 10px 0
+}
+.registration .form_section_btn .resend_button {
+	margin-top: 20px;
+	background: #2486a9;
+	width: 125px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 15px;
+	float: left;
+	margin-right: 15px;
+	border: 0px;
+	padding: 10px 0
+}
+.registration .form_section_btn .submit_button {
+	margin-top: 20px;
+	background: #2486a9;
+	width: 125px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 15px;
+	margin-right: 15px;
+	border: 0px;
+	padding: 10px 0
+}
+.registration .form_section_btn .refresh {
+	float: right;
+	margin: 28px 28px 0 0;
+	cursor: pointer
+}
+.seimens_tab {
+	background: #ebf0f5;
+}
+.seimens_tab .inner_tab {
+}
+.seimens_tab .inner_tab ul {
+	margin: 0;
+	padding: 0
+}
+.seimens_tab .inner_tab ul li {
+	list-style: none;
+	float: left;
+	border-left: 1px solid #fff;
+	padding: 20px 0;
+	text-align: center
+}
+.seimens_tab .inner_tab ul li a {
+	color: #004a64;
+	font-size: 16px;
+	text-decoration: none;
+	font-family: "siemens-sans-roman";
+}
+.seimens_tab_con {
+	padding-top: 35px;
+	margin-bottom: 80px;
+}
+.seimens_tab_con .topcon {
+
+	/*width: 710px;*/
+}
+.seimens_tab_con .topcon h6 {
+	color: #333333;
+	padding-bottom: 12px;
+	font: bold 20px "siemens-sans-roman";
+}
+.seimens_tab_con .topcon h2 {
+	color: #333333;
+	font: bold 30px 'siemens-sans-roman';
+	padding-bottom: 30px;
+}
+.seimens_tab_con .topcon p {
+	color: #333333;
+	font: 15px 'siemens-sans-roman';
+	padding-bottom: 25px;
+	line-height: 22px;
+}
+.seimens_tab_con .conimg {
+	padding-left: 0px;
+}
+.seimens_tab_con .conimg img {
+	width: 100%;
+}
+.seimens_tab_con .conimg p {
+	color: #333333;
+	font: 14px 'siemens-sans-roman';
+	padding-top: 8px;
+}
+.seimens_tab_con .content {
+}
+.seimens_tab_con .content h2 {
+	color: #333333;
+	font: bold 20px 'siemens-sans-roman';
+	padding-bottom: 15px;
+}
+.seimens_tab_con .content p {
+	line-height: 24px;
+	font-size: 16px;
+	font-family: "siemens-sans-roman";
+}
+.seimens_tab_con .mainbox_section {
+	padding-top: 60px;
+}
+.seimens_tab_con .mainbox_section .mainimg {
+}
+.seimens_tab_con .mainbox_section .maincon {
+}
+.seimens_tab_con .mainbox_section .maincon h4 {
+	color: #333333;
+	font: 16px 'siemens-sans-roman';
+	padding-bottom: 8px;
+	font-weight: bold;
+}
+.seimens_tab_con .mainbox_section .maincon p {
+	color: #333333;
+	font: 13px 'siemens-sans-roman';
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+.seimens_tab_con .mainbox_section .maincon ul {
+	margin: 0;
+	padding: 0
+}
+.seimens_tab_con .mainbox_section .maincon ul li {
+	list-style: none;
+	background: url(../img/left_arrow.png) no-repeat 0 4px;
+	padding-left: 15px;
+}
+.seimens_tab_con .mainbox_section .maincon ul li a {
+	color: #016386;
+	font: bold 14px 'siemens-sans-roman';
+	text-decoration: none
+}
+.roadmap {
+	padding-top: 65px;
+	display: none;
+}
+.roadmap h3 {
+	padding-bottom: 30px;
+	font: bold 25px 'siemens-sans-roman';
+}
+.roadmap .autocom {
+}
+.roadmap .autocom p {
+	color: #016386;
+	font: 13px 'siemens-sans-roman';
+	padding: 10px;
+	background: #ebf0f5 url(../img/down_arrow.png) no-repeat 95% 14px;
+}
+.roadmap .autocom .content {
+	background: #ebf0f5;
+	padding: 20px 15px;	/*margin-bottom: 12px;*/
+	min-height: 220px;
+}
+.roadmap .autocom .slider-container .content {
+	max-height: 220px;
+	margin: 0;
+	padding: 20px;
+}
+.roadmap .autocom .slider-container .content img {
+	height: 180px;
+}
+.roadmap .autocom .owl-stage-outer .content {
+	min-height: 50px;
+	margin: 0;
+	padding: 20px;
+}
+.roadmap .autocom .thumbnail-slider-container .content {
+	min-height: 50px;
+	margin: 0;
+	padding: 8px 4px;
+	background: transparent;
+}
+.roadmap .autocom .content h3 {
+	font: bold 25px 'siemens-sans-roman';
+	color: #444444;
+	padding-bottom: 20px;
+}
+.roadmap .autocom .content h3 sup {
+	font-size: 15px;
+}
+.roadmap .autocom .content h4 {
+	font: bold 15px 'siemens-sans-roman';
+	color: #555555;
+	padding-bottom: 10px;
+}
+.product {
+	padding-top: 65px;
+	display: none;
+}
+.product h3 {
+	padding-bottom: 30px;
+	font: bold 25px 'siemens-sans-roman';
+}
+.product .productsec {
+}
+.product .productsec .imgsec {
+}
+.product .productsec .consec {
+	padding: 10px;
+	background: #ebf0f5;
+}
+.product .productsec .consec h2 {
+	color: #016386;
+	font: 14px 'siemens-sans-roman';
+	padding-bottom: 45px;
+}
+.product .productsec .consec .img {
+	text-align: right
+}
+.contactus {
+	padding-top: 32px;
+}
+.contactus h2 {
+	color: #333333;
+	font: bold 25px 'siemens-sans-roman';
+	padding-bottom: 20px;
+}
+.contactus p {
+	color: #333333;
+	font: 16px 'siemens-sans-roman';
+}
+.contactus .imgbox {
+	padding-bottom: 20px;
+}
+.contactus .imgbox img {
+	width: 100%;
+	height: 100%;
+}
+.contactus .imgbox p {
+	padding-bottom: 10px;
+	color: #9f9f9f;
+	font: 13px 'siemens-sans-roman';
+	width: 190px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.contactus .imgbox button {
+	width: 235px;
+	background: #f4a807;
+	padding: 10px 0;
+	color: #fff;
+	font: 15px 'siemens-sans-roman';
+	border: 0px;
+	float: right;
+}
+.news {
+	padding-top: 70px;
+	display: none;
+}
+.news .events {
+	background: #ebf0f5;
+}
+.news .events h3 {
+	color: #333333;
+	font: bold 30px 'siemens-sans-roman';
+	padding-bottom: 20px;
+	padding: 50px 125px 0 125px;
+}
+.news .events p {
+	color: #333333;
+	font: 14px 'siemens-sans-roman';
+	padding-bottom: 15px;
+	padding: 20px 125px 0 125px;
+}
+.news .events .event_gallery {
+	padding: 20px 125px 0 125px;
+}
+.news .events .event_gallery ul {
+}
+.news .events .event_gallery ul li {
+}
+.news .events .event_gallery ul li .slde1 {
+	background: #fff;
+}
+.news .events .event_gallery ul li .slde1 img {
+	width: 100%;
+	height: 100%
+}
+.news .events .event_gallery ul li .slde1 a {
+	color: #016386;
+	font: 11px 'siemens-sans-roman';
+	text-decoration: none;
+	text-align: left
+}
+.news .events .event_gallery ul li .slde1 span {
+	color: #7d7c7c;
+	font: 11px 'siemens-sans-roman';
+	padding-bottom: 3px;
+	display: block
+}
+.news .events .event_gallery ul li .slde1 .content {
+	background: #fff;
+	padding: 15px;
+}
+.news .events .event_gallery ul li .slde1 h4 {
+	color: #333333;
+	font: bold 14px 'siemens-sans-roman';
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+.news .events .event_gallery ul li .slde1 p {
+	color: #726e6e;
+	font: 12px 'siemens-sans-roman';
+	padding-bottom: 35px;
+}
+.news .events .event_gallery ul li .slde1 .content p {
+	padding: 0 0 20px 0;
+}
+.news .events .share {
+	padding: 60px 0 20px 125px;
+}
+.news .events .share h2 {
+	color: #333333;
+	font-size: 17px;
+	padding-bottom: 5px;
+}
+.news .events .share ul {
+	margin: 0;
+	padding: 0
+}
+.news .events .share ul li {
+	list-style: none;
+	float: left;
+	padding-right: 5px;
+}
+.news .events .share ul li a {
+	text-decoration: none;
+}
+.twitt {
+	background: url(../img/social.png) no-repeat 0 0;
+	width: 25px;
+	height: 25px;
+	display: block
+}
+.fb {
+	background: url(../img/social.png) no-repeat -33px 0;
+	width: 25px;
+	height: 25px;
+	display: block
+}
+.yout {
+	background: url(../img/social.png) no-repeat -65px 0;
+	width: 25px;
+	height: 25px;
+	display: block
+}
+.twitter {
+	background: #ebf0f5;
+	padding: 40px 0;
+}
+.twitter .tweets {
+}
+.twitter .tweets h2 {
+	color: #333333;
+	font: bold 30px 'siemens-sans-roman';
+	padding-bottom: 38px;
+}
+.twitter .tweets h3 {
+	color: #333333;
+	font: bold 14px 'siemens-sans-roman';
+	padding-bottom: 5px;
+	padding-left: 15px
+}
+.twitter .tweets p {
+	color: #333333;
+	font: bold 12px 'siemens-sans-roman';
+	padding-left: 15px
+}
+.disclaimer {
+	padding: 50px 0;
+}
+.disclaimer h2 {
+	color: #333333;
+	font: bold 20px 'siemens-sans-roman';
+	padding-bottom: 20px;
+}
+.disclaimer p {
+	color: #333333;
+	font: 12px 'siemens-sans-roman';
+	line-height: 21px;
+}
+.contact_siemens_section {
+	background: #ebf0f5;
+	padding: 35px 0 27px 0;
+}
+.contact_siemens_section .contact_siemens {
+	padding-bottom: 75px;
+}
+.contact_siemens_section .contact_siemens h3 {
+	color: #333333;
+	font: bold 20px 'siemens-sans-roman';
+	padding-bottom: 20px;
+}
+.contact_siemens_section .contact_siemens p, .contact_siemens_section .contact_siemens p a {
+	color: #697882;
+	font: bold 15px 'siemens-sans-roman';
+	padding-bottom: 15px;
+	text-decoration: none;
+}
+.contact_siemens_section .follow_us {
+}
+.contact_siemens_section .follow_us h3 {
+	color: #333333;
+	font: bold 20px 'siemens-sans-roman';
+	padding-bottom: 20px;
+}
+.contact_siemens_section .follow_us ul {
+}
+.contact_siemens_section .follow_us ul li {
+	list-style: none;
+	float: left;
+	padding: 0 7px;
+}
+.contact_siemens_section .follow_us ul li:first-child {
+	padding-left: 0;
+}
+.contact_siemens_section .list ul li {
+	list-style: none;
+	float: left;
+	padding-right: 15px;
+}
+.contact_siemens_section .list ul li a {
+	text-decoration: none;
+	color: #697f89;
+	font-size: 14px;
+	font-family: "siemens-sans-roman";
+}
+.video {
+	width: 1040px;
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+	top: 5%;
+}
+iframe {
+	width: 1024px;
+	height: 600px;
+}
+.overlay {
+	width: 100%;
+	height: 100%;
+	background: url(../img/overlay.png) repeat 0 0;
+	opacity: 1;
+	z-index: 9999;
+	position: fixed;
+	display: none;
+}
+.close_icon {
+	position: absolute;
+	right: 26px;
+	top: 10px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 35px;
+}
+.error {
+	color: red;
+	padding-bottom: 5px;
+	position: relative;
+	top: -13px;
+	font-size: 14px;
+}
+.error1 {
+	color: #fff;
+	padding-bottom: 5px;
+	position: relative;
+	top: -13px;
+	font-size: 14px;
+}
+div.item {
+	display: inline-block;
+	width: 100%;
+}
+div.item:nth-child(even) {
+	margin-right: 0px;
+}
+div.info {
+	float: left;
+	clear: both;
+	width: 100%;
+	display: none;
+}
+
+/*3-7-17 start*/
+.inside_truck {
+	padding-top: 25px;
+}
+.siemens_background {
+	padding-top: 40px;
+}
+.siemens_background p {
+	padding-bottom: 15px;
+}
+.siemens_background a {
+	padding-top: 10px;
+	font-family: "siemens-sans-roman";
+	font-size: 15px;
+	color: #333333;
+	line-height: 22px;
+	text-decoration: underline;
+}
+.siemens_background button {
+	width: 235px;
+	background: #f4a807;
+	padding: 10px 0;
+	color: #fff;
+	font: 15px 'siemens-sans-roman';
+	border: 0px;
+	float: right;
+}
+.siemens_background .process {
+	padding-top: 50px;
+}
+.route_map {
+	background: #ebf0f5;
+	margin-bottom: 60px;
+}
+.route_map h3 {
+	padding: 25px 30px 0;
+}
+.route_map img {
+	display: block;
+	margin: 0 auto;
+}
+
+/*3-7-17 end*/
+
+/*4-7-17 start*/
+.autocom .info {
+	margin-bottom: 35px;
+}
+.autocom .item-data {
+	min-height: 220px;
+}
+.thumbnail-slider-container {
+	position: absolute;
+	width: 100%;
+	text-align: left;
+	bottom: 20px;
+	padding: 0 20px;
+	display: inline-block;	/*left: 0;*/
+}
+.item.divc {
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.video_container {
+	width: 100%;
+	height: 180px;
+}
+.video_container iframe, .video_container video {
+	height: 100%;
+	width: 100%;
+}
+#my-video {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+	background-position: center center;
+	background-size: contain;
+	object-fit: cover;
+	z-index: 3;
+}
+
+/*4-7-17 end*/
+
+/*5-7-17 start*/
+.product .item.divc p {
+	text-transform: uppercase;
+}
+.product .autocom .content h4 {
+	font: 16px 'siemens-sans-roman';
+	color: #333333;
+	line-height: 22px;
+}
+.product .autocom .content h6 {
+	font: 13px 'siemens-sans-roman';
+	color: #444444;
+	line-height: 22px;
+	text-decoration: underline;
+}
+.roadmap .owl-carousel .owl-stage, .product .owl-carousel .owl-stage {
+
+	/*transform: none !important;*/
+}
+.autocom .thumbnail-slider-container .content img {
+	height: 30px;
+}
+.combine-data {
+	background: #ebf0f5;
+}
+
+/*5-7-17 end*/
+
+/*6-7-17 start*/
+
+
+.imgoverlay {
+	width: 100%;
+	height: 100%;
+	background: url(../img/overlay.png) repeat 0 0;
+	opacity: 1;
+	z-index: 9999;
+	position: fixed;
+	display: none;
+	top: 0;
+}
+.imgoverlay img {
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.tourimg img, .truckimg img {
+	cursor: pointer;
+}
+.videopopup {
+	width: 100%;
+	height: 100%;
+	background: url(../img/overlay.png) repeat 0 0;
+	opacity: 1;
+	z-index: 9999;
+	position: fixed;
+	display: none;
+	top: 0;
+}
+.videopopup iframe {
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+}
+
+/*6-7-17 end*/
